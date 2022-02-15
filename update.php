@@ -81,19 +81,19 @@ if(isset($_POST['update'])){
 <form action="update.php" method="post">
     <div>
         <label for="">First Name</label>
-        <input type="text" name="firstName" value="<?php echo $firstName ?>" required>
+        <input type="text" name="firstName" value="<?php echo $firstName; ?>" required>
     </div>
     <div>
         <label for="">Second Name</label>
-        <input type="text" name="secondName" value="<?php echo $secondName  ?>" required>
+        <input type="text" name="secondName" value="<?php echo $secondName;  ?>" required>
     </div>
     <div>
         <label for="">Email</label>
-        <input type="email" name="emailAddress" value="<?php echo $emailAddress ?>" required>
+        <input type="email" name="emailAddress" value="<?php echo $emailAddress; ?>" required>
     </div>
     <div>
         <label for="">Phone Number</label>
-        <input type="text" name="phoneNumber" value="<?php echo $phoneNumber ?>" required>
+        <input type="text" name="phoneNumber" value="<?php echo $phoneNumber; ?>" required>
     </div>
     <div>
         <label>ID</label>

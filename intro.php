@@ -1,7 +1,7 @@
 <?php
 
 
-//<?php should end in
+//<?php should end in ?>
 #2.Every php statements end with a semi-colon(;)
 #3.Is case-sensitive
 
